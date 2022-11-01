@@ -65,6 +65,8 @@ mp4muxer.exe
 PQ/HLG视频素材，色彩原色bt2020。（但其实基本上什么文件都可以被libplacebo正确转换到HLG，包括杜比视界Profile5或SDR素材）
 
 比如下图素材即为一合格素材：（图源：bilibili @nilaoda）
+
+![Image text](https://github.com/Map987/use_dee_encode_dv8_4/blob/main/1753597-20220920200339587-1019412301.png)
  
 STEP1.预压制
 
@@ -164,6 +166,8 @@ Tools\mp4box -add _output_dolby.mp4#1:name= -add footage.mp4#2:name= -brand mp42
 注：若有单独提取出来的音轨且是mp4muxer支持的格式，也可以直接在mp4muxer封装时就封进去，不使用mp4box亦可。
 
 最终成品：（图源：bilibili @nilaoda）
+
+![Image text](https://github.com/Map987/use_dee_encode_dv8_4/blob/main/1753597-20220920221547168-1536734258.png)
  
 
 这个文件就可以用于投稿了，并且能够被正确识别为杜比视界。
