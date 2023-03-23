@@ -41,6 +41,6 @@
 
 *
 [Aegisub](http://docs.aegisub.org/manual/Overview):粉丝字幕制作的核心工具，可从[二进制文件](http://plorkyeran.com/aegisub)处获取。
- * Aegisub的[主要文档](http://docs.aegisub.org/manual/Overview)、[PDF](//yukisubs.files.wordpress.com/2017/05/aegisub-3-2-manual.pdf)、[路径说明符](http://docs.aegisub.org/3.2/Aegisub_path_specifiers/)，以及这个[ASS Override标签](http://docs.aegisub.org/manual/ASS_Tags)。
+      * Aegisub's的[主要文档](http://docs.aegisub.org/manual/Overview)、[PDF](//yukisubs.files.wordpress.com/2017/05/aegisub-3-2-manual.pdf)、[路径说明符](http://docs.aegisub.org/3.2/Aegisub_path_specifiers/)，以及这个[ASS Override标签](http://docs.aegisub.org/manual/ASS_Tags)。
  * [随机粉丝字幕制作技巧](http://mod16.org/hurfdurf/?p=128)（面向团队）。
  * 《粉丝字幕组的一天》：[博客文章](http://mod16.org/hurfdurf/?p=144)、[采访](//uniquec.shinsen-radio.org)和[YouTube播放列表](//www.youtube.com/playlist?list=PLtwIkfU56fRSZgaPHFt79ei1_Kf4cDaFY)，以及曾经的情况: `web.archive.org/web/20021013081748/http://pepper.idge.net:80/digisub.html`，[PDF](//yukisubs.files.wordpress.com/2018/02/digisub_guide_onceuponatimein200
