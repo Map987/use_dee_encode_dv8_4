@@ -2,6 +2,15 @@
 使用Dolby Encoding Engine及一些三方工具实现在非macOS上制作Dolby Vision 8.4视频
 
 *本文复制自https://www.cnblogs.com/izwb003/archive/2022/09/20/use_dee_encode_dv8_4.html
+20220920的转载文章，现在20231018再更新一下 b站最早是在今年5月12号看到一个dolby5点几的视频，看了几篇文章，反正是越整懵，而且至始至终也没动手搞过，可以说是云研究了
+感觉好像主要是用deew和dolby media encoder以及达芬奇之类的，其实很多地方都有用到，我看还是用虚拟声卡录制再摆轨道上的，这几篇写的大差不大
+【B站视频环绕声转杜比全景声与常规Mono/Stereo音频流处理小心得-哔哩哔哩】 https://www.bilibili.com/read/mobile?id=22217834
+【【4K/杜比视界/全景声】攻壳机动队 1995 来自上世纪的神作 港中片段 BD原盘-哔哩哔哩】 https://www.bilibili.com/video/BV1k94y1679S/
+【【杜比视界·全景声】剧场版 紫罗兰永恒花园 - UHDBD 预览-哔哩哔哩】 https://b23.tv/BV1JV41157CY
+【【紫罗兰永恒花园】4K杜比视界，全景声，Hires效果测试视频-哔哩哔哩】 https://b23.tv/BV1sN4y1w7FA
+
+# 以下为正文
+
 
 杜比视界作为一种新兴的、效果颇佳的HDR技术，正随着设备和软件等的更新换代走进千家万户，让越来越多的人体验到了HDR效果的魅力。目前，随着B站等视频平台开始接受杜比视界内容的UGC投稿，杜比视界8.4制作一时也成为了制作高质量视频的选择。而可惜的是，杜比视界8.4内容的制作至今依然过于依赖macOS或iOS平台，在Windows等平台制作Dolby Vision Profile 8.4内容依然还有很高门槛。截至本文发稿，Windows平台下能完成杜比视界8.4内容创作的软件仍只有Davinci Resolve 18，且它必须要求计算机有杜比视界解码能力才能出片，否则则需要杜比视界Trim License，而这玩意并不容易搞到。（然并卵，因为此处我们要用的DEE也要去找Dolby买License... - 所以如果您搞不到这两个License的任意一个的话，您可以关闭这标签页了。。。而且我觉得有功夫去联系Dolby买License，还不如去买个支持杜比视界编码的电脑然后用达芬奇实在0.0）——链接：杜比视界 UGC 视频制作 （四）｜ 使用达芬奇软件制作杜比视界 UGC 内容https://www.bilibili.com/video/BV1aa411g7MT/
 
