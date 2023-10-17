@@ -2,12 +2,17 @@
 使用Dolby Encoding Engine及一些三方工具实现在非macOS上制作Dolby Vision 8.4视频
 
 *本文复制自https://www.cnblogs.com/izwb003/archive/2022/09/20/use_dee_encode_dv8_4.html
+
 20220920的转载文章，现在20231018再更新一下 b站最早是在今年5月12号看到一个dolby5点几的视频，看了几篇文章，反正是越整懵，而且至始至终也没动手搞过，可以说是云研究了
 感觉好像主要是用deew和dolby media encoder以及达芬奇之类的，其实很多地方都有用到，我看还是用虚拟声卡录制再摆轨道上的，这几篇写的大差不大
-【B站视频环绕声转杜比全景声与常规Mono/Stereo音频流处理小心得-哔哩哔哩】 https://www.bilibili.com/read/mobile?id=22217834
-【【4K/杜比视界/全景声】攻壳机动队 1995 来自上世纪的神作 港中片段 BD原盘-哔哩哔哩】 https://www.bilibili.com/video/BV1k94y1679S/
-【【杜比视界·全景声】剧场版 紫罗兰永恒花园 - UHDBD 预览-哔哩哔哩】 https://b23.tv/BV1JV41157CY
-【【紫罗兰永恒花园】4K杜比视界，全景声，Hires效果测试视频-哔哩哔哩】 https://b23.tv/BV1sN4y1w7FA
+【B站视频环绕声转杜比全景声与常规Mono/Stereo音频流处理小心得-哔哩哔哩】
+https://www.bilibili.com/read/mobile?id=22217834
+【【4K/杜比视界/全景声】攻壳机动队 1995 来自上世纪的神作 港中片段 BD原盘-哔哩哔哩】 
+https://www.bilibili.com/video/BV1k94y1679S/
+【【杜比视界·全景声】剧场版 紫罗兰永恒花园 - UHDBD 预览-哔哩哔哩】 
+https://b23.tv/BV1JV41157CY
+【【紫罗兰永恒花园】4K杜比视界，全景声，Hires效果测试视频-哔哩哔哩】 
+https://b23.tv/BV1sN4y1w7FA
 
 # 以下为正文
 
